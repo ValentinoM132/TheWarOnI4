@@ -64,16 +64,16 @@ RenderGraphViewer
 MaterialQuality
 Utilities
 MaterialQualityUtilities
-IBaseRenderGraphBuilder
+RenderGraph
 UnityEngine
 Experimental
 Rendering
 RenderGraphModule
+IBaseRenderGraphBuilder
 IComputeRenderGraphBuilder
 IUnsafeRenderGraphBuilder
 IRasterRenderGraphBuilder
 IRenderGraphRecorder
-RenderGraph
 DepthAccess
 AccessFlags
 InternalRenderGraphContext
@@ -112,6 +112,10 @@ FullScreenPassRendererFeature
 
 RenderQueueType
 RenderObjects
+RayTracingRenderPipelineResources
+UnityEngine
+Rendering
+UnifiedRayTracing
 AssetModificationProcessor
 
 Sysroot
@@ -206,9 +210,11 @@ AnimatorJobExtensions
 MuscleHandle
 ExpressionEvaluator
 UnityEditor
+EventModifiers
+UnityEngine
+IMUGI
 NumericFieldDraggerUtility
 Profiler
-UnityEngine
 PhotoCaptureFileOutputFormat
 XR
 WSA
@@ -262,6 +268,10 @@ U2D
 SpriteBone
 LocalizationAsset
 UnityEditor
+CurrentPlayer
+Unity
+Multiplayer
+Playmode
 SpriteShapeParameters
 UnityEngine
 Experimental

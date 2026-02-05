@@ -9,27 +9,37 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     [SerializeField] private Sprite newSprite;
 
+    public GameManager gameManager;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public void Start()
+    {
+        gameManager = FindFirstObjectByType<GameManager>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (isDestructible)
         {
             hitsToDestroy--;
-            spriteRenderer.sprite = newSprite;
-            if (hitsToDestroy <= 0)
+            if (spriteRenderer == null)
             {
+                gameManager.score += 1;
                 Destroy(gameObject);
+            }
+            else
+                {spriteRenderer.sprite = newSprite;
+                if (hitsToDestroy <= 0)
+                {
+
+                    Destroy(gameObject);
+                }
             }
         }
 
         
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()

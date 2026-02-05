@@ -12,12 +12,17 @@ public class GameManager : MonoBehaviour
 
     [Header("Game paramaters")]
     [SerializeField] private float paddleSpeed = 4f;
-    [SerializeField] private Vector2 initialballvelocity = new Vector2(2f, 4f);
+    [SerializeField] private Vector2 initialballvelocity = new Vector2(0f, 0f);
+    [SerializeField] private Vector2 velocity = new Vector2(2f, 4f);
     public float maxSpeed = 5f;
 
     public float move;
     private bool isBallinPlay = false;
 
+    public int score = 0;
+
+    public float VelocityX;
+    public float VelocityY;
 
     // This is finding the input from the player and assigining it a valuable
     public void Move(InputAction.CallbackContext context)
@@ -33,6 +38,8 @@ public class GameManager : MonoBehaviour
         {
             ballRb.linearVelocity = ballRb.linearVelocity.normalized * maxSpeed;
         }
+        VelocityX = rb.linearVelocity.x * 1;
+        VelocityY = 10f;
     }
 
     // this sticks the ball to the paddle before the game starts
@@ -51,7 +58,7 @@ public class GameManager : MonoBehaviour
         if (context.performed && !isBallinPlay)
         {
             isBallinPlay = true;
-            ballRb.AddForce(initialballvelocity, ForceMode2D.Impulse);
+            ballRb.AddForce(new Vector2(VelocityX, VelocityY), ForceMode2D.Impulse);
         }
     }
     // This is adding force to the ball when it collides with the paddle as a work around for friction slowing the ball down

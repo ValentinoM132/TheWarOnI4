@@ -102,9 +102,11 @@ AnimatorJobExtensions
 MuscleHandle
 ExpressionEvaluator
 UnityEditor
+EventModifiers
+UnityEngine
+IMUGI
 NumericFieldDraggerUtility
 Profiler
-UnityEngine
 PhotoCaptureFileOutputFormat
 XR
 WSA
@@ -158,6 +160,10 @@ U2D
 SpriteBone
 LocalizationAsset
 UnityEditor
+CurrentPlayer
+Unity
+Multiplayer
+Playmode
 SpriteShapeParameters
 UnityEngine
 Experimental
