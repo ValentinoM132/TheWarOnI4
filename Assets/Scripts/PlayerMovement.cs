@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
@@ -12,16 +13,11 @@ public class GameManager : MonoBehaviour
     [Header("Game paramaters")]
     [SerializeField] private float paddleSpeed = 4f;
     [SerializeField] private Vector2 initialballvelocity = new Vector2(2f, 4f);
-
+    public float maxSpeed = 5f;
 
     public float move;
     private bool isBallinPlay = false;
 
-
-    void Start()
-    {
-        
-    }
 
     // This is finding the input from the player and assigining it a valuable
     public void Move(InputAction.CallbackContext context)
@@ -33,8 +29,13 @@ public class GameManager : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(move * paddleSpeed * Time.deltaTime, rb.linearVelocity.y);
+        if (ballRb.linearVelocity.magnitude > maxSpeed)
+        {
+            ballRb.linearVelocity = ballRb.linearVelocity.normalized * maxSpeed;
+        }
     }
-    // Update is called once per frame
+
+    // this sticks the ball to the paddle before the game starts
     void Update()
     {
        if (!isBallinPlay)
@@ -44,7 +45,7 @@ public class GameManager : MonoBehaviour
 
        rb.freezeRotation = true;
     }
-
+    // this starts the game by adding force to the ball
     public void Shoot(InputAction.CallbackContext context)
     {
         if (context.performed && !isBallinPlay)
@@ -53,8 +54,19 @@ public class GameManager : MonoBehaviour
             ballRb.AddForce(initialballvelocity, ForceMode2D.Impulse);
         }
     }
+    // This is adding force to the ball when it collides with the paddle as a work around for friction slowing the ball down
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ball"))
+        {
+            ballRb.AddForce(initialballvelocity, ForceMode2D.Impulse);
+        }
+    }
 
-
-
+    public void resetBall()
+    {
+        isBallinPlay = false;
+        ballRb.linearVelocity = Vector2.zero; 
+    }
 
 }

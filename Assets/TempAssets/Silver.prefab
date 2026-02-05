@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3795954538220613407}
   - component: {fileID: 3363919075719144711}
   - component: {fileID: 4761711089948992331}
+  - component: {fileID: 4064573343238589367}
   m_Layer: 0
   m_Name: Silver
   m_TagString: Untagged
@@ -134,3 +135,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 0.3}
   m_EdgeRadius: 0
+--- !u!114 &4064573343238589367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432161035357564101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4c6df44585a24082e9bf0d6b9989e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitsToDestroy: 3
+  isDestructible: 1
+  newSprite: {fileID: 2537882373423050008, guid: 67a476094d5af1344ab40770e9b1e122, type: 3}
