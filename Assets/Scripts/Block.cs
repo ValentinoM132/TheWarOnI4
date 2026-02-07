@@ -9,12 +9,16 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     [SerializeField] private Sprite newSprite;
 
+    [Header("References")]
+
     public GameManager gameManager;
+    public SceneManager sceneManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
     {
         gameManager = FindFirstObjectByType<GameManager>();
+        sceneManager = FindFirstObjectByType<SceneManager>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -24,7 +28,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
             hitsToDestroy--;
             if (spriteRenderer == null)
             {
-                gameManager.score += 1;
+                gameManager.score += 10;
+                sceneManager.RemoveBlock(gameObject);
                 Destroy(gameObject);
             }
             else

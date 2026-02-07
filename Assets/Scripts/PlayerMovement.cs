@@ -1,9 +1,14 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("References")]
+
+    public TMPro.TextMeshProUGUI scoreText;
+    public SceneManager sceneManager;
 
     [Header("Unity Objects")]
     public Rigidbody2D rb;
@@ -23,6 +28,8 @@ public class GameManager : MonoBehaviour
 
     public float VelocityX;
     public float VelocityY;
+
+    public bool playerHasWon = false;
 
     // This is finding the input from the player and assigining it a valuable
     public void Move(InputAction.CallbackContext context)
@@ -51,6 +58,7 @@ public class GameManager : MonoBehaviour
         }
 
        rb.freezeRotation = true;
+        scoreText.text = "Score: " + score;
     }
     // this starts the game by adding force to the ball
     public void Shoot(InputAction.CallbackContext context)
@@ -74,6 +82,15 @@ public class GameManager : MonoBehaviour
     {
         isBallinPlay = false;
         ballRb.linearVelocity = Vector2.zero; 
+        if (playerHasWon)
+        {
+            
+        }
+        else
+        {
+            sceneManager.ResetLevel();
+        }
+        
     }
 
 }
