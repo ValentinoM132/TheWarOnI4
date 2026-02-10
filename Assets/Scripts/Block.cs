@@ -16,6 +16,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     public GameManager gameManager;
     public SceneManager sceneManager;
+    public GameObject backgroundAudio;
 
 
     public AudioSource audioSource;
@@ -24,6 +25,15 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
     {
+        foreach (var obj in FindObjectsByType<GameObject>(FindObjectsSortMode.None))
+        {
+            if (obj.CompareTag("Background"))
+            {
+                backgroundAudio = obj;
+                audioSource = backgroundAudio.GetComponent<AudioSource>();
+                audioSource.clip = soundClip;
+            }
+        }
         gameManager = FindFirstObjectByType<GameManager>();
         sceneManager = FindFirstObjectByType<SceneManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();

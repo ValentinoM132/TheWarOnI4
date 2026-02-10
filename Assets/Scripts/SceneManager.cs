@@ -14,6 +14,7 @@ public class SceneManager : MonoBehaviour
     [Header("References")]
 
     public GameObject winScreen;
+    public GameObject loseScreen;
 
     public GameManager player;
 
@@ -29,6 +30,7 @@ public class SceneManager : MonoBehaviour
             }
         }
         winScreen.SetActive(false);
+        loseScreen.SetActive(false);
     }
 
     public void RemoveBlock(GameObject block)
@@ -63,4 +65,15 @@ public class SceneManager : MonoBehaviour
             UnityEngine.SceneManagement.SceneManager.LoadScene(0); 
         }
     }
+
+    public IEnumerator delayLoseScreen()
+    {
+        yield return new WaitForSeconds(5);
+        if (nextSceneIndex < UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings)
+        {
+           ResetLevel();
+        }
+
+    }
+
 }

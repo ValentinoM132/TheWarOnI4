@@ -66,7 +66,8 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Score: " + score;
         if(Lives ==0 )
         {
-            sceneManager.ResetLevel();
+            sceneManager.loseScreen.SetActive(true);
+            sceneManager.StartCoroutine(sceneManager.delayLoseScreen());
         }
     }
     // this starts the game by adding force to the ball
