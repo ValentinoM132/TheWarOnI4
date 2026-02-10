@@ -7,11 +7,12 @@ TagManager:
   - ball
   - Ball
   - Block
+  - knight
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Important
   - Water
   - UI
   - 

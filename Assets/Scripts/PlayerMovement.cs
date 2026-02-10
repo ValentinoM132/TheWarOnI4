@@ -8,7 +8,9 @@ public class GameManager : MonoBehaviour
     [Header("References")]
 
     public TMPro.TextMeshProUGUI scoreText;
+    public TMPro.TextMeshProUGUI livesText;
     public SceneManager sceneManager;
+    [SerializeField] private int Lives = 3;
 
     [Header("Unity Objects")]
     public Rigidbody2D rb;
@@ -60,7 +62,12 @@ public class GameManager : MonoBehaviour
         }
 
        rb.freezeRotation = true;
+        livesText.text = "Lives: " + Lives;
         scoreText.text = "Score: " + score;
+        if(Lives ==0 )
+        {
+            sceneManager.ResetLevel();
+        }
     }
     // this starts the game by adding force to the ball
     public void Shoot(InputAction.CallbackContext context)
@@ -91,9 +98,12 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            sceneManager.ResetLevel();
+            Lives--;
         }
         
     }
+    private void powerUp()
+    {
 
+    }
 }

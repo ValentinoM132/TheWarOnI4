@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/WindowsAccess/Repositories/TheWarOnI4/Packages/manifest.json
+    m_FilePath: C:/Users/Valen/OneDrive/Desktop/School/TheWarOnI4/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639059215524119857
-    m_Hash: 2497849677
+      ticks: 639062728024766362
+    m_Hash: 2599003827
   m_LockFileStatus:
-    m_FilePath: C:/WindowsAccess/Repositories/TheWarOnI4/Packages/packages-lock.json
+    m_FilePath: C:/Users/Valen/OneDrive/Desktop/School/TheWarOnI4/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639059215753222539
-    m_Hash: 1995298286
+      ticks: 639062728024780886
+    m_Hash: 1221959167
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/WindowsAccess/Repositories/TheWarOnI4/Packages
+m_ProjectPath: C:/Users/Valen/OneDrive/Desktop/School/TheWarOnI4/Packages
 m_EditorVersion: 6000.3.3f1 (ef04196de0d6)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.11.3
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.11.3
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -221,7 +221,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.2
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.feature.2d@0309d34ea7f2
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.feature.2d@0309d34ea7f2
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -384,7 +384,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.39
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.ide.rider@4504839d03f7
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -528,7 +528,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.26
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -658,7 +658,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.18.0
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.inputsystem@57d0e36f6123
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.inputsystem@57d0e36f6123
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -810,17 +810,16 @@ m_ResolvedPackages:
     Fixed InputActionReference not being set when attempting to set it on a Prefab
     or ScriptableObject [ISXB-1787](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1787)"}'
   signature:
-    status: 2
-    reason: 'Signed attestation validation failed: Validation of signer''s certificate
-      failed: The certificate is either not yet valid or expired'
+    status: 1
+    reason: Signature is ok
     attestation:
-      format: 
-      publishingChannel: 
+      format: archive
+      publishingChannel: unity
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 57d0e36f61231bc5a2579f37d81bf6fa02f40adc
@@ -839,7 +838,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -946,7 +945,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.3.0
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.render-pipelines.universal@f70afd0d2146
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.render-pipelines.universal@f70afd0d2146
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -1082,7 +1081,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1183,7 +1182,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.10
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1384,7 +1383,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.ugui@8873725e650d
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.ugui@8873725e650d
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1491,7 +1490,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.9
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1601,16 +1600,17 @@ m_ResolvedPackages:
     API documentation.\n\n### Changed\n- Adds alt texts to images in documentation
     to increase accessibility for screen readers."}'
   signature:
-    status: 1
-    reason: Signature is ok
+    status: 2
+    reason: 'Signed attestation validation failed: Validation of signer''s certificate
+      failed: The certificate is either not yet valid or expired'
     attestation:
-      format: archive
-      publishingChannel: unity
+      format: 
+      publishingChannel: 
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: 
+    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
   assetStore:
     productId: 
   fingerprint: 191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a
@@ -4970,7 +4970,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5061,7 +5061,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.render-pipelines.core@b5371ec5a8ac
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.render-pipelines.core@b5371ec5a8ac
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -5194,7 +5194,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.shadergraph@3ea479829020
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.shadergraph@3ea479829020
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5319,7 +5319,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -5436,7 +5436,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 13.0.2
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.animation@3c53dae92956
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.animation@3c53dae92956
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -5729,7 +5729,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.1.1
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.pixel-perfect@09d99455b901
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.pixel-perfect@09d99455b901
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -5853,7 +5853,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 12.0.1
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.psdimporter@9abe0f7cac7e
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.psdimporter@9abe0f7cac7e
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -6089,7 +6089,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.sprite@82f01c8c75ca
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.sprite@82f01c8c75ca
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -6180,7 +6180,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 13.0.0
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -6422,7 +6422,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.tilemap@d1f73c185ae9
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.tilemap@d1f73c185ae9
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -6532,7 +6532,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 6.0.1
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.tilemap.extras@3dde84bf3867
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.tilemap.extras@3dde84bf3867
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -6715,7 +6715,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.1
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -6889,7 +6889,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.2
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.tooling@249995156768
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.tooling@249995156768
   assetPath: Packages/com.unity.2d.tooling
   name: com.unity.2d.tooling
   displayName: 2D Tooling
@@ -7021,7 +7021,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.4
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.searcher@d45a78918735
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.searcher@d45a78918735
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -7101,16 +7101,17 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
     Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
   signature:
-    status: 1
-    reason: Signature is ok
+    status: 2
+    reason: 'Signed attestation validation failed: Validation of signer''s certificate
+      failed: The certificate is either not yet valid or expired'
     attestation:
-      format: archive
-      publishingChannel: unity
+      format: 
+      publishingChannel: 
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: 
+    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
   assetStore:
     productId: 
   fingerprint: d45a78918735dd5b1de2247c6e3567c60aa24115
@@ -7129,7 +7130,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.27
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.burst@973857688024
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.burst@973857688024
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -7372,7 +7373,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.3
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.mathematics@19a9377c4ffa
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.mathematics@19a9377c4ffa
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -7455,16 +7456,17 @@ m_ResolvedPackages:
     and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
     Updated minimum editor version to 2021.3"}'
   signature:
-    status: 1
-    reason: Signature is ok
+    status: 2
+    reason: 'Signed attestation validation failed: Validation of signer''s certificate
+      failed: The certificate is either not yet valid or expired'
     attestation:
-      format: archive
-      publishingChannel: unity
+      format: 
+      publishingChannel: 
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: 
+    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
   assetStore:
     productId: 
   fingerprint: 19a9377c4ffa59370edad3e6a34e4445529badde
@@ -7483,7 +7485,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.6.2
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.collections@aea9d3bd5e19
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.collections@aea9d3bd5e19
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -7682,7 +7684,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 12.0.2
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.2d.common@800085e896ad
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.2d.common@800085e896ad
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -7891,7 +7893,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.6
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -7968,16 +7970,17 @@ m_ResolvedPackages:
     with embedded dlls of mono-cecil\n* Updated Cecil to 0.11.5 with a grafted patch
     from this bug fix PR (https://github.com/jbevain/cecil/pull/914)"}'
   signature:
-    status: 1
-    reason: Signature is ok
+    status: 2
+    reason: 'Signed attestation validation failed: Validation of signer''s certificate
+      failed: The certificate is either not yet valid or expired'
     attestation:
-      format: archive
-      publishingChannel: unity
+      format: 
+      publishingChannel: 
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
       publisherName: 
-    errorCode: 
+    errorCode: ERR_SIGNED_ATTESTATION_VALIDATION_FAILED
   assetStore:
     productId: 
   fingerprint: ecb9724e46fff855c46a4f37f0a3377a3cfffc06
@@ -7996,7 +7999,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.0
   source: 1
-  resolvedPath: C:\WindowsAccess\Repositories\TheWarOnI4\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
+  resolvedPath: C:\Users\Valen\OneDrive\Desktop\School\TheWarOnI4\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API

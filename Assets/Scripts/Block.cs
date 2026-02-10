@@ -6,6 +6,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     [SerializeField] private int hitsToDestroy = 3;
     [SerializeField] private bool isDestructible = true;
+    public float dropChance = 0.7f;
 
     private SpriteRenderer spriteRenderer;
     [SerializeField] public Sprite newSprite;
@@ -15,6 +16,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     public GameManager gameManager;
     public SceneManager sceneManager;
+
+
+    public AudioSource audioSource;
+    public AudioClip soundClip;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
@@ -34,6 +39,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (isDestructible)
         {
             hitsToDestroy--;
+            
             ChangeToAlternateSprite();
             gameManager.score += 10;
             //  if (spriteRenderer == null)
@@ -46,7 +52,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
             if (hitsToDestroy <= 0)
             {
-                gameManager.score += 10;
+                if (Random.value <= dropChance)
+                {
+                    Debug.Log("Item Dropped!");
+                }
+                    gameManager.score += 10;
+                audioSource.Play();
                 sceneManager.RemoveBlock(gameObject);
                 Destroy(gameObject);
             }
