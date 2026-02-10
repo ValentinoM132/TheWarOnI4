@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     public float move;
     private bool isBallinPlay = false;
 
+    public TrailRenderer trailRenderer;
     public int score = 0;
 
     public float VelocityX;
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour
     {
         move = context.ReadValue<Vector2>().x;
     }
-   
+ 
     // This is using previous value and turning it to movement
     private void FixedUpdate()
     {
@@ -55,6 +56,7 @@ public class GameManager : MonoBehaviour
        if (!isBallinPlay)
         {
             ballRb.transform.position = paddle.position + (Vector3.up * 0.2f);
+            trailRenderer.emitting = false;
         }
 
        rb.freezeRotation = true;
@@ -67,6 +69,7 @@ public class GameManager : MonoBehaviour
         {
             isBallinPlay = true;
             ballRb.AddForce(new Vector2(VelocityX, VelocityY), ForceMode2D.Impulse);
+            trailRenderer.emitting = true;
         }
     }
     // This is adding force to the ball when it collides with the paddle as a work around for friction slowing the ball down
@@ -81,7 +84,7 @@ public class GameManager : MonoBehaviour
     public void resetBall()
     {
         isBallinPlay = false;
-        ballRb.linearVelocity = Vector2.zero; 
+        ballRb.linearVelocity = Vector2.zero;   
         if (playerHasWon)
         {
             
