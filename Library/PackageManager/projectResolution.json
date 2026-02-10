@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "C:/Users/Valen/OneDrive/Desktop/School/TheWarOnI4/Packages",
+    "projectPath": "C:/WindowsAccess/Repositories/TheWarOnI4/Packages",
     "unityVersion": "6000.3.3f1"
   },
   "inputs": [
-    "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Packages\\manifest.json",
-    "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Packages\\packages-lock.json",
+    "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Packages\\manifest.json",
+    "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Packages\\packages-lock.json",
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.3f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.collab-proxy@2.11.3": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623",
       "fingerprint": "e566cd3e762373591f6828e86f2018eed8021356",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.11.3",
@@ -22,7 +22,7 @@
     "com.unity.feature.2d@2.0.2": {
       "name": "com.unity.feature.2d",
       "displayName": "2D",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.feature.2d@0309d34ea7f2",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.feature.2d@0309d34ea7f2",
       "fingerprint": "0309d34ea7f24c916d9ac46e556759d54f3b9f3e",
       "version": "2.0.2",
       "source": "builtin",
@@ -31,7 +31,7 @@
     "com.unity.ide.rider@3.0.39": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.ide.rider@4504839d03f7",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.ide.rider@4504839d03f7",
       "fingerprint": "4504839d03f7a5a4495357084a0ffd6e439892cf",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.0.39",
@@ -41,7 +41,7 @@
     "com.unity.ide.visualstudio@2.0.26": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f",
       "fingerprint": "a99d56dec63ffb3a911a5a9bce9b77ba862a601c",
       "editorCompatibility": "2021.3.0a1",
       "version": "2.0.26",
@@ -51,7 +51,7 @@
     "com.unity.inputsystem@1.18.0": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.inputsystem@57d0e36f6123",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.inputsystem@57d0e36f6123",
       "fingerprint": "57d0e36f61231bc5a2579f37d81bf6fa02f40adc",
       "editorCompatibility": "2022.3.0a1",
       "version": "1.18.0",
@@ -61,7 +61,7 @@
     "com.unity.multiplayer.center@1.0.1": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.multiplayer.center@f01f4ba8d00a",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.multiplayer.center@f01f4ba8d00a",
       "fingerprint": "f01f4ba8d00afa4e957bddf0fcd1612a564401ff",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.1",
@@ -71,7 +71,7 @@
     "com.unity.render-pipelines.universal@17.3.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146",
       "fingerprint": "f70afd0d2146a5054bd625f413a0535771299cff",
       "editorCompatibility": "6000.3.0a1",
       "version": "17.3.0",
@@ -81,7 +81,7 @@
     "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d",
       "fingerprint": "0b7a23ab2e1d74441a5afdffa63f417929756957",
       "editorCompatibility": "6000.0.44f1",
       "version": "1.6.0",
@@ -91,7 +91,7 @@
     "com.unity.timeline@1.8.10": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.timeline@7f8b2fb101b6",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.timeline@7f8b2fb101b6",
       "fingerprint": "7f8b2fb101b6053cc7472330401e94ff0c17b204",
       "editorCompatibility": "2022.3.0a1",
       "version": "1.8.10",
@@ -101,7 +101,7 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.ugui@8873725e650d",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.ugui@8873725e650d",
       "fingerprint": "8873725e650d08e38ff0036c986491dc2aff70dc",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
@@ -111,7 +111,7 @@
     "com.unity.visualscripting@1.9.9": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.visualscripting@191c0d7e3b69",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.visualscripting@191c0d7e3b69",
       "fingerprint": "191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.9.9",
@@ -409,7 +409,7 @@
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d",
       "fingerprint": "d8c07649098d3936da4c8ab500960c1776b44592",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
@@ -419,7 +419,7 @@
     "com.unity.render-pipelines.core@17.3.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.render-pipelines.core@b5371ec5a8ac",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.render-pipelines.core@b5371ec5a8ac",
       "fingerprint": "b5371ec5a8ac6b8c711f1bb9fa49986b69f18e19",
       "editorCompatibility": "6000.3.0a1",
       "version": "17.3.0",
@@ -429,7 +429,7 @@
     "com.unity.shadergraph@17.3.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.shadergraph@3ea479829020",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.shadergraph@3ea479829020",
       "fingerprint": "3ea479829020e232333a5c61817cda6c114d0e8f",
       "editorCompatibility": "6000.3.0a1",
       "version": "17.3.0",
@@ -439,7 +439,7 @@
     "com.unity.render-pipelines.universal-config@17.0.3": {
       "name": "com.unity.render-pipelines.universal-config",
       "displayName": "Universal Render Pipeline Config",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
       "fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
@@ -449,7 +449,7 @@
     "com.unity.2d.animation@13.0.2": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.animation@3c53dae92956",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.animation@3c53dae92956",
       "fingerprint": "3c53dae9295646dd95f73b885ea361caab35fbd4",
       "editorCompatibility": "6000.3.0a2",
       "version": "13.0.2",
@@ -459,7 +459,7 @@
     "com.unity.2d.pixel-perfect@5.1.1": {
       "name": "com.unity.2d.pixel-perfect",
       "displayName": "2D Pixel Perfect",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.pixel-perfect@09d99455b901",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.pixel-perfect@09d99455b901",
       "fingerprint": "09d99455b9018d7a152bb766d42b2569236a7b4a",
       "editorCompatibility": "2021.3.0a1",
       "version": "5.1.1",
@@ -469,7 +469,7 @@
     "com.unity.2d.psdimporter@12.0.1": {
       "name": "com.unity.2d.psdimporter",
       "displayName": "2D PSD Importer",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.psdimporter@9abe0f7cac7e",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.psdimporter@9abe0f7cac7e",
       "fingerprint": "9abe0f7cac7effda42d93c33a6c35134cca1bee3",
       "editorCompatibility": "6000.3.0a2",
       "version": "12.0.1",
@@ -479,7 +479,7 @@
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.sprite@82f01c8c75ca",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.sprite@82f01c8c75ca",
       "fingerprint": "82f01c8c75ca2d707990e8dc249b71ab7d1aa33e",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -489,7 +489,7 @@
     "com.unity.2d.spriteshape@13.0.0": {
       "name": "com.unity.2d.spriteshape",
       "displayName": "2D SpriteShape",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.spriteshape@0738bab11647",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.spriteshape@0738bab11647",
       "fingerprint": "0738bab116473980325be8cdb7c3c42ab6961778",
       "editorCompatibility": "6000.3.0a2",
       "version": "13.0.0",
@@ -499,7 +499,7 @@
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.tilemap@d1f73c185ae9",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.tilemap@d1f73c185ae9",
       "fingerprint": "d1f73c185ae909693707c01ed72dbf111201ee39",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -509,7 +509,7 @@
     "com.unity.2d.tilemap.extras@6.0.1": {
       "name": "com.unity.2d.tilemap.extras",
       "displayName": "2D Tilemap Extras",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.tilemap.extras@3dde84bf3867",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.tilemap.extras@3dde84bf3867",
       "fingerprint": "3dde84bf38677b4165ad5f568b353d4ba942d63c",
       "editorCompatibility": "6000.3.0a2",
       "version": "6.0.1",
@@ -519,7 +519,7 @@
     "com.unity.2d.aseprite@3.0.1": {
       "name": "com.unity.2d.aseprite",
       "displayName": "2D Aseprite Importer",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.aseprite@809e3a168ff7",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.aseprite@809e3a168ff7",
       "fingerprint": "809e3a168ff77eff802b4b24c10cf6254618245a",
       "editorCompatibility": "6000.3.0a2",
       "version": "3.0.1",
@@ -529,7 +529,7 @@
     "com.unity.2d.tooling@1.0.2": {
       "name": "com.unity.2d.tooling",
       "displayName": "2D Tooling",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.tooling@249995156768",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.tooling@249995156768",
       "fingerprint": "2499951567687634a16f41e9f26ee5dfeb8f8da6",
       "editorCompatibility": "6000.3.0a2",
       "version": "1.0.2",
@@ -539,7 +539,7 @@
     "com.unity.searcher@4.9.4": {
       "name": "com.unity.searcher",
       "displayName": "Searcher",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.searcher@d45a78918735",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.searcher@d45a78918735",
       "fingerprint": "d45a78918735dd5b1de2247c6e3567c60aa24115",
       "editorCompatibility": "2019.1.0a1",
       "version": "4.9.4",
@@ -549,7 +549,7 @@
     "com.unity.burst@1.8.27": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.burst@973857688024",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.burst@973857688024",
       "fingerprint": "973857688024e0c6019b60f7a3b403e8e467c4d0",
       "editorCompatibility": "2022.3.0a1",
       "version": "1.8.27",
@@ -559,7 +559,7 @@
     "com.unity.mathematics@1.3.3": {
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.mathematics@19a9377c4ffa",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.mathematics@19a9377c4ffa",
       "fingerprint": "19a9377c4ffa59370edad3e6a34e4445529badde",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.3.3",
@@ -569,7 +569,7 @@
     "com.unity.collections@2.6.2": {
       "name": "com.unity.collections",
       "displayName": "Collections",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19",
       "fingerprint": "aea9d3bd5e19f2a90fc3a39919974a5f3613a159",
       "editorCompatibility": "2022.3.20f1",
       "version": "2.6.2",
@@ -579,7 +579,7 @@
     "com.unity.2d.common@12.0.2": {
       "name": "com.unity.2d.common",
       "displayName": "2D Common",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.common@800085e896ad",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.2d.common@800085e896ad",
       "fingerprint": "800085e896ad4b33b2dc3739891463543ac489d1",
       "editorCompatibility": "6000.3.0a2",
       "version": "12.0.2",
@@ -589,7 +589,7 @@
     "com.unity.nuget.mono-cecil@1.11.6": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.nuget.mono-cecil@ecb9724e46ff",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.nuget.mono-cecil@ecb9724e46ff",
       "fingerprint": "ecb9724e46fff855c46a4f37f0a3377a3cfffc06",
       "editorCompatibility": "2019.4.0a1",
       "version": "1.11.6",
@@ -599,7 +599,7 @@
     "com.unity.test-framework.performance@3.2.0": {
       "name": "com.unity.test-framework.performance",
       "displayName": "Performance testing API",
-      "resolvedPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\TheWarOnI4\\Library\\PackageCache\\com.unity.test-framework.performance@0840f58e4562",
+      "resolvedPath": "C:\\WindowsAccess\\Repositories\\TheWarOnI4\\Library\\PackageCache\\com.unity.test-framework.performance@0840f58e4562",
       "fingerprint": "0840f58e45624f7677679a0f8b6a5137689e607f",
       "editorCompatibility": "2020.3.0a1",
       "version": "3.2.0",
