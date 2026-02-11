@@ -154,11 +154,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitsToDestroy: 2
   isDestructible: 1
-  dropChance: 0.7
+  dropChance: 0.2
   newSprite: {fileID: -4770116773238679579, guid: 70a0d2604fa85da4b8fa1da55a2ba5da, type: 3}
   defaultSprite: {fileID: 9124400464361321557, guid: 2941c25bcdf0d3f40b4f34b8e16e6457, type: 3}
+  powerUp: {fileID: 5546641679706517203, guid: 29b9e3e5fe4bd5d4eb29710f5de1b141, type: 3}
+  block: {fileID: 3795954538220613407}
   gameManager: {fileID: 0}
   sceneManager: {fileID: 0}
+  backgroundAudio: {fileID: 0}
   audioSource: {fileID: 5764759064603428082}
   soundClip: {fileID: 8300000, guid: 33dd5da78dd236b499fb71b49dad5f4c, type: 3}
 --- !u!82 &5764759064603428082

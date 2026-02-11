@@ -34,6 +34,10 @@ public class GameManager : MonoBehaviour
 
     public bool playerHasWon = false;
 
+    public AudioSource audioSource;
+    public AudioClip soundClip1;
+    public AudioClip soundClip2;
+
     // This is finding the input from the player and assigining it a valuable
     public void Move(InputAction.CallbackContext context)
     {
@@ -78,6 +82,7 @@ public class GameManager : MonoBehaviour
             isBallinPlay = true;
             ballRb.AddForce(new Vector2(VelocityX, VelocityY), ForceMode2D.Impulse);
             trailRenderer.emitting = true;
+
         }
     }
     // This is adding force to the ball when it collides with the paddle as a work around for friction slowing the ball down
@@ -86,6 +91,7 @@ public class GameManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Ball"))
         {
             ballRb.AddForce(initialballvelocity, ForceMode2D.Impulse);
+            
         }
     }
 

@@ -11,6 +11,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     [SerializeField] public Sprite newSprite;
     public Sprite defaultSprite;
+    public GameObject powerUp;
+    public Transform block;
 
     [Header("References")]
 
@@ -38,6 +40,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         sceneManager = FindFirstObjectByType<SceneManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = defaultSprite;
+        Vector2 currentPosition = transform.position;
     }
     public void ChangeToAlternateSprite()
     {
@@ -64,6 +67,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
             {
                 if (Random.value <= dropChance)
                 {
+                    Instantiate(powerUp, block.transform.position, block.transform.rotation);
                     Debug.Log("Item Dropped!");
                 }
                     gameManager.score += 10;

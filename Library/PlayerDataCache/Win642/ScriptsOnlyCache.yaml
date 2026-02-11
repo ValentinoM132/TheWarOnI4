@@ -16,6 +16,8 @@ ScriptsOnlyBuild:
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    Unity.2D.Sprite.Editor.dll:
+    - UnityEditor.U2D.Sprites.SpriteEditorWindow
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -271,30 +273,24 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
     methodName: OnAction
   - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
   - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
     methodName: OnDecrement
   - assembly: Unity.RenderPipelines.Core.Runtime
@@ -306,6 +302,12 @@ ScriptsOnlyBuild:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
     methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    methodName: OnIncrement
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
@@ -388,6 +390,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 41262}
     - Class: 114
+      Script: {instanceID: 35328}
+    - Class: 114
       Script: {instanceID: 36170}
     - Class: 115
       Script: {instanceID: 0}
@@ -439,6 +443,8 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 40368}
+    - Class: 114
       Script: {instanceID: 44760}
     - Class: 114
       Script: {instanceID: 36316}
@@ -466,6 +472,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 45568}
     - Class: 114
       Script: {instanceID: 41262}
+    - Class: 114
+      Script: {instanceID: 35328}
     - Class: 114
       Script: {instanceID: 36170}
     - Class: 115
@@ -864,7 +872,7 @@ ScriptsOnlyBuild:
     className: LensFlareComponentSRP
   - hash:
       serializedVersion: 2
-      Hash: 5cdc2f4679672552631896222c9d434b
+      Hash: 4f00dd1bacab0808fdaf506b1c16b3c6
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SceneManager
@@ -1080,7 +1088,7 @@ ScriptsOnlyBuild:
     className: ColorLookup
   - hash:
       serializedVersion: 2
-      Hash: 66650cf05e73a29a8917bac3f589c345
+      Hash: f64966a3b8d8236dd6426325703ccbe2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: NewMonoBehaviourScript
@@ -2094,7 +2102,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 4e7b179db12e01c13b74972ea5930fd3
+      Hash: d82481894bbbb04a9a58ddffae4b46b2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -2391,4 +2399,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/LevelOne.unity
   - Assets/Scenes/LevelTwo.unity
-  playerPath: C:/WindowsAccess/Games/Breakout/TheWarOnI4.exe
+  playerPath: C:/Users/Valen/OneDrive/Desktop/TheWarOnI4-FinalBuild/TheWarOnI4.exe
