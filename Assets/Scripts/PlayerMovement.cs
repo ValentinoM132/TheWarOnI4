@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public TMPro.TextMeshProUGUI scoreText;
     public TMPro.TextMeshProUGUI livesText;
     public SceneManager sceneManager;
-    [SerializeField] private int Lives = 3;
+    [SerializeField] public int Lives = 3;
 
     [Header("Unity Objects")]
     public Rigidbody2D rb;

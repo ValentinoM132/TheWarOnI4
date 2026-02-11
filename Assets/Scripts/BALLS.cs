@@ -8,6 +8,8 @@ public class BALLS : MonoBehaviour
         if (other.gameObject.CompareTag("knight"))
         {
             gameObject.SetActive(false);
+            GameManager player = FindFirstObjectByType<GameManager>();
+            player.Lives = player.Lives + 1;
         }
     }
 }
